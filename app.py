@@ -7,7 +7,7 @@ from dash.dependencies import Input, Output
 import numpy as np
 
 # Cargar el dataset con 30 mujeres bolivianas y eliminar espacios en los nombres de las columnas
-df_bolivia_30_women = pd.read_csv('/Users/romi_1/Downloads/Mujeres_STEM_Bolivia_corrected_coordinates.csv')
+df_bolivia_30_women = pd.read_csv('Mujeres_STEM_Bolivia_corrected_coordinates.csv')
 df_bolivia_30_women.columns = df_bolivia_30_women.columns.str.strip()  # Eliminar espacios en los nombres de columnas
 
 # Mapa de colores únicos para cada mujer usando Plotly Express
