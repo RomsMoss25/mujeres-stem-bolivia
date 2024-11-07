@@ -39,6 +39,7 @@ city_coordinates = {
 # Inicializar la aplicación Dash con un título y color de fondo
 app = dash.Dash(__name__)
 app.title = "Mujeres STEM Bolivia"
+server = app.server
 
 # Layout de la aplicación
 app.layout = html.Div(style={'backgroundColor': '#f7f9fc', 'padding': '20px', 'font-family': 'Arial, sans-serif'}, children=[
